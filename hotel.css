@@ -1,0 +1,134 @@
+body{
+    background-image: url("./photos/wp10339075.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: cover;
+}
+header{
+    
+    color: crimson;
+    text-align: center;
+}
+menu{
+    position: sticky;
+            top: 20;
+            background-color: #5e3316;
+            padding: 10px 0px 10px 0px;
+            color: rgb(170, 62, 62);
+            margin: 0 auto;
+            overflow: hidden;
+}
+.menu a {
+    float: right;
+    color: rgb(192, 67, 29);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+/* Home section styles */
+#home {
+    color: #da9e1d;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #home h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  #home p{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 40px;
+    color: black;
+    text-shadow: 2px 2px rgb(153, 63, 63);
+  }
+.container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.animated-paragraph {
+    display: inline-block;
+    animation: typing 3s steps(40, end);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #000;
+    font-size: 18px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* Menu section styles */
+#menu {
+    padding: 50px;
+    text-align: center;
+    color: #da9e1d;
+    font-size: 30px;
+
+  }
+  
+  .menu-item {
+    margin-bottom: 40px;
+  }
+  
+  .menu-item img {
+    width: 300px;
+    height: auto;
+    
+  }
+  
+  .menu-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #da9e1d;
+  }
+  
+  .menu-item p {
+    font-size: 14px;
+    color: #1d0404;
+  }
+
+
+#about {
+    color: #a17025;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #about p{
+    font-size: 15px;
+    color: #1d0404;
+  }
+#contact {
+    padding: 50px;
+    color: #e02a2a;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+footer {
+    background-color:transparent;
+    padding: 20px;
+    color: #e02a2a;
+    position: sticky;
+    text-align: center;
+    font-size: 14px;
+  }
